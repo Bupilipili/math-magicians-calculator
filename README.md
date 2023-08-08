@@ -42,8 +42,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-  **[It has a built in calculator]**
-  **[It fetches quotes from an eternal API]**
+  - **[It has a built in calculator]**
+  - **[It fetches quotes from an eternal API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
