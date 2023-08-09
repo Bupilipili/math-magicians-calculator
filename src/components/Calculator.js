@@ -1,28 +1,28 @@
-import React from 'react';
 import './Calculator.css';
+import Button from './Button';
 
 const Calculator = () => (
   <div className="calculator">
     <div className="display">0</div>
-    <button className="button gray" type="button">AC</button>
-    <button className="button gray" type="button">+/-</button>
-    <button className="button gray" type="button">%</button>
-    <button className="button orange" type="button">÷</button>
-    <button className="button" type="button">7</button>
-    <button className="button" type="button">8</button>
-    <button className="button" type="button">9</button>
-    <button className="button orange" type="button">×</button>
-    <button className="button" type="button">4</button>
-    <button className="button" type="button">5</button>
-    <button className="button" type="button">6</button>
-    <button className="button orange" type="button">-</button>
-    <button className="button" type="button">1</button>
-    <button className="button" type="button">2</button>
-    <button className="button" type="button">3</button>
-    <button className="button orange" type="button">+</button>
-    <button className="button zero" type="button">0</button>
-    <button className="button" type="button">.</button>
-    <button className="button orange" type="button">=</button>
+    <Button text="AC" color="gray" />
+    <Button text="+/-" color="gray" />
+    <Button text="%" color="gray" />
+    <Button text="÷" color="orange" />
+    <Button text="7" />
+    <Button text="8" />
+    <Button text="9" />
+    <Button text="×" color="orange" />
+    <Button text="4" />
+    <Button text="5" />
+    <Button text="6" />
+    <Button text="-" color="orange" />
+    <Button text="1" />
+    <Button text="2" />
+    <Button text="3" />
+    <Button text="+" color="orange" />
+    <Button text="0" color="zero" />
+    <Button text="." />
+    <Button text="=" color="orange" />
   </div>
 );
 
