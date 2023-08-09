@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
-const Button = ({ text, color }) => (
-  <button className={`button ${color}`} type="button">
+const Button = ({ text, color, onClick }) => (
+  <button className={`button ${color}`} type="button" onClick={onClick}>
     {text}
   </button>
 );
@@ -9,6 +9,7 @@ const Button = ({ text, color }) => (
 Button.propTypes = {
   text: PropTypes.string.isRequired,
   color: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 
 export default Button;
